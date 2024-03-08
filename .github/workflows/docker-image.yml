@@ -29,3 +29,4 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/serverstatus:latest
           platforms: linux/amd64,linux/arm64,linux/s390x
           file: ./Dockerfile
+          github-token: ${{ secrets.GITHUB_TOKEN }}
